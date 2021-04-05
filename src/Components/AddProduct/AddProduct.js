@@ -43,6 +43,8 @@ const AddProduct = () => {
     })
       .then(res=>res.json())
       .then(data=>console.log("server response: ",data))
+
+      alert("Product added");
   };
   return (
     <div className="d-flex">
