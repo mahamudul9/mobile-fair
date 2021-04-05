@@ -1,0 +1,32 @@
+.login{
+    text-align: center; 
+
+}
+.login-form{
+    padding: 20px;
+    border: 1px solid grey;
+    height: 360px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color:white;
+}
+input{
+    margin-top: 20px;
+    width: 300px;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+.submit{
+    background-color: #009933;
+    color: white;
+}
+span{
+    cursor: pointer;
+}
+.google{
+    border: 1px solid grey;
+    background-color:white
+}

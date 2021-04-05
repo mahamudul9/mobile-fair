@@ -1,0 +1,8 @@
+.product-card{
+    text-align:center;
+    margin: 20px;
+    box-shadow: 10px 10px 40px lightgrey;
+    border-radius: 0.5em;
+    padding: 10px;
+    background-color:white;
+}

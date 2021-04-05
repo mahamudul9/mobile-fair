@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #339046;
+    text-align: center;
+    height: 720px;
+  }
+  
+  .nav a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+  }
+  
+  .nav a.active {
+    background-color: #74c877;
+    color: white;
+  }
+  
+ .nav a:hover:not(.active) {
+    background-color: lightgreen;
+    color: white;
+    width:300px;
+  }
+/* .nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 5px;
+    display: block;
+    
+    
+} */
