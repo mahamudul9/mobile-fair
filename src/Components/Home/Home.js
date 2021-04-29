@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("https://cors-anywhere.mobile-fair.herokuapp.com/products")
+        fetch("https://mobile-fair.herokuapp.com/products")
             .then(response => response.json())
             .then(data => setProducts(data))
     },[])
