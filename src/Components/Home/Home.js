@@ -5,10 +5,11 @@ import './Home.css'
 const Home = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://mobile-fair.herokuapp.com/products')
+        fetch("https://cors-anywhere.mobile-fair.herokuapp.com/products")
             .then(response => response.json())
             .then(data => setProducts(data))
-    })
+    },[])
+    console.log(products)
     return (
         <div className="row justify-content-around">
             {products.length === 0 && 
