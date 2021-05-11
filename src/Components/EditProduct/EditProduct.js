@@ -6,7 +6,7 @@ const EditProduct = () => {
         <div className="d-flex">
             <div><Admin/></div>
             <div>
-                <h1>This is edit section</h1>
+                <h1>Features Coming Soon...</h1>
             </div>
         </div>
     );

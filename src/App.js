@@ -19,6 +19,7 @@ import AddProduct from './Components/AddProduct/AddProduct';
 import EditProduct from './Components/EditProduct/EditProduct';
 import Checkout from './Components/Checkout/Checkout';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Admin from './Components/Admin/Admin';
 
 
 export const UserContext = createContext();
@@ -47,7 +48,7 @@ function App() {
           <Orders/>
         </PrivateRoute>
         <PrivateRoute path='/admin'>
-          <ManageProduct/>
+          <Admin/>
         </PrivateRoute>
         <PrivateRoute path='/manage'>
           <ManageProduct/>
